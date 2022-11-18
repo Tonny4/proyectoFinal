@@ -34,7 +34,7 @@ public class bienvenida extends javax.swing.JFrame {
             public void run() {
                 for (int i = 0; i <= 100; i++) {
                     try {
-                        sleep(20);
+                        sleep(5);
                         pgbContinuar.setValue(i);
                     } catch (InterruptedException ex) {
                         Logger.getLogger(bienvenida.class.getName()).log(Level.SEVERE, null, ex);
